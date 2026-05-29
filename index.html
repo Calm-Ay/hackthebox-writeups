@@ -133,13 +133,79 @@
         </div>
       </div>
 
+      <div class="writeup-card">
+        <div class="writeup-num">02</div>
+        <div class="writeup-body">
+          <div class="writeup-tags">
+            <span class="tag diff-easy">EASY</span>
+            <span class="tag">LINUX</span>
+            <span class="tag">CMS EXPLOITATION</span>
+            <span class="tag">FILE UPLOAD RCE</span>
+            <span class="tag">PRIVESC</span>
+            <span class="tag">METASPLOIT</span>
+          </div>
+          <div class="writeup-title">HTB — Nibbles</div>
+          <div class="writeup-desc">Easy Linux box. Nmap recon revealed Apache on port 80. Page source inspection uncovered a hidden /nibbleblog/ directory running NibbleBlog 4.0.3. Exploited arbitrary file upload via the My Image plugin (default creds: admin:nibbles) to get a reverse shell. Privilege escalation via a NOPASSWD writable sudo script. Alternate method shown using Metasploit.</div>
+        </div>
+        <div class="writeup-actions">
+          <a href="./HTB_Nibbles_Writeup.pdf" class="btn-pdf" target="_blank" rel="noopener noreferrer">↓ PDF WRITEUP</a>
+          <div class="writeup-date">May 28, 2026</div>
+        </div>
+      </div>
+
+      <div class="writeup-card">
+        <div class="writeup-num">03</div>
+        <div class="writeup-body">
+          <div class="writeup-tags">
+            <span class="tag diff-easy">BEGINNER</span>
+            <span class="tag">HTB ACADEMY</span>
+            <span class="tag">GETSIMPLE CMS</span>
+            <span class="tag">CSRF BYPASS</span>
+            <span class="tag">THEME EDITOR RCE</span>
+            <span class="tag">GTFOBINS</span>
+          </div>
+          <div class="writeup-title">HTB Academy — Knowledge Check (Getting Started Final)</div>
+          <div class="writeup-desc">Final challenge of the Getting Started module. GetSimple CMS 3.3.15 identified via whatweb and page source. Default credentials (admin:admin) gave full admin access. Exploited the theme editor to inject a PHP webshell, bypassing CSRF protection via automated nonce extraction. Privilege escalation via GTFOBins PHP technique — www-data could run PHP as ANY user with NOPASSWD.</div>
+        </div>
+        <div class="writeup-actions">
+          <a href="./HTB_KnowledgeCheck_Writeup.pdf" class="btn-pdf" target="_blank" rel="noopener noreferrer">↓ PDF WRITEUP</a>
+          <div class="writeup-date">May 29, 2026</div>
+        </div>
+      </div>
+
     </div>
 
     <div class="stats">
-      <div><div class="stat-num">1</div><div class="stat-lbl">Labs Completed</div></div>
-      <div><div class="stat-num">2</div><div class="stat-lbl">Flags Captured</div></div>
-      <div><div class="stat-num">2</div><div class="stat-lbl">Privesc Paths Found</div></div>
-      <div><div class="stat-num">5+</div><div class="stat-lbl">Tools Used</div></div>
+      <div><div class="stat-num">3</div><div class="stat-lbl">Labs Completed</div></div>
+      <div><div class="stat-num">6</div><div class="stat-lbl">Flags Captured</div></div>
+      <div><div class="stat-num">4</div><div class="stat-lbl">Privesc Paths Found</div></div>
+      <div><div class="stat-num">10+</div><div class="stat-lbl">Tools Used</div></div>
+    </div>
+  </section>
+</div>
+
+<div class="wrap">
+  <section style="padding:0 0 80px;">
+    <div class="label">RESOURCES</div>
+    <div class="heading"><span class="w">Reference</span><span class="r">Materials</span></div>
+    <div style="margin-top:40px;">
+      <div class="writeup-card">
+        <div class="writeup-num" style="font-size:1.5rem;width:40px;">📋</div>
+        <div class="writeup-body">
+          <div class="writeup-tags">
+            <span class="tag">METHODOLOGY</span>
+            <span class="tag">CHECKLIST</span>
+            <span class="tag">WEB PENTESTING</span>
+            <span class="tag">REFERENCE</span>
+          </div>
+          <div class="writeup-title">Web Penetration Testing Methodology Checklist</div>
+          <div class="writeup-desc">A repeatable methodology checklist built from real HTB Academy lab experience — covering WordPress exploitation, NibbleBlog RCE, GetSimple CMS compromise, and Linux privilege escalation. Phases: Reconnaissance, Web Enumeration, Exploit Discovery, Gaining Foothold, and Privilege Escalation. Useful for CTF boxes and real-world engagements.</div>
+        </div>
+        <div class="writeup-actions">
+          <a href="./HTB_Pentesting_Methodology_Checklist.pdf" class="btn-pdf" target="_blank" rel="noopener noreferrer">↓ PDF</a>
+          <div class="writeup-date">Compiled by Calm Ay</div>
+        </div>
+      </div>
     </div>
   </section>
 </div>
