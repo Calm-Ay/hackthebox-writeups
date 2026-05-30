@@ -14,6 +14,7 @@ Real Hack The Box lab walkthroughs documenting reconnaissance, exploitation, pri
 | 01 | HTB Academy — Getting Started | Beginner | Nmap, WPScan, Path Traversal, Privilege Escalation | [PDF](./HTB_GettingStarted_Writeup.pdf) |
 | 02 | HTB — Nibbles | Easy | Nmap, NibbleBlog CMS, File Upload RCE, Sudo Privesc, Metasploit | [PDF](./HTB_Nibbles_Writeup.pdf) |
 | 03 | HTB Academy — Knowledge Check | Beginner | GetSimple CMS, CSRF Bypass, Theme Editor RCE, GTFOBins PHP | [PDF](./HTB_KnowledgeCheck_Writeup.pdf) |
+| 04 | HTB Academy — Network Enumeration with Nmap | Beginner | Host Discovery, Port Scanning, NSE, Service Enumeration, IDS/IPS Evasion | [PDF](./HTB_Nmap_Module_Writeup.pdf) |
 
 ---
 
@@ -21,7 +22,8 @@ Real Hack The Box lab walkthroughs documenting reconnaissance, exploitation, pri
 
 | Resource | Description | File |
 |----------|-------------|------|
-| Web Pentesting Methodology Checklist | Repeatable checklist built from real HTB lab experience — Recon, Web Enum, Exploit Discovery, Foothold, PrivEsc | [PDF](./HTB_Pentesting_Methodology_Checklist.pdf) |
+| Web Pentesting Methodology Checklist v2.0 | Updated with Nmap module — Host Discovery, TCP/UDP Scanning, Banner Grabbing, NSE, IDS/IPS Evasion, 6 phases | [PDF](./HTB_Pentesting_Methodology_Checklist_v2.pdf) |
+| Web Pentesting Methodology Checklist v1.0 | Original from Getting Started module — Recon, Web Enum, Exploit Discovery, Foothold, PrivEsc | [PDF](./HTB_Pentesting_Methodology_Checklist.pdf) |
 
 ---
 
