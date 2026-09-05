@@ -15,6 +15,7 @@ Real Hack The Box lab walkthroughs documenting reconnaissance, exploitation, pri
 | 02 | HTB — Nibbles | Easy | Nmap, NibbleBlog CMS, File Upload RCE, Sudo Privesc, Metasploit | [PDF](./HTB_Nibbles_Writeup.pdf) |
 | 03 | HTB Academy — Knowledge Check | Beginner | GetSimple CMS, CSRF Bypass, Theme Editor RCE, GTFOBins PHP | [PDF](./HTB_KnowledgeCheck_Writeup.pdf) |
 | 04 | HTB Academy — Network Enumeration with Nmap | Beginner | Host Discovery, Port Scanning, NSE, Service Enumeration, IDS/IPS Evasion | [PDF](./HTB_Nmap_Module_Writeup.pdf) |
+| 05 | HTB — Nexus | Easy | Info Disclosure, Arbitrary File Upload (RCE), Path Traversal, Password Reuse, Gitea, Krayin CRM, Docker | [PDF](./HTB_Nexus_Writeup.pdf) |
 
 ---
 
